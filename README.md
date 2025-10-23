@@ -7,10 +7,10 @@ I built a tool that allows you to automatically clean up .Pitch files created in
 When running the script, you will be asked to choose the folder that contains your .Pitch files, to select a selection threshold (see 1 above) and to select a visibility threshold (see 2 above). The script will then run through the .Pitch files in your folder and save the cleaned versions with the suffix _cleaned.Pitch. Currently, if you run the script twice (e.g., with different settings), the previous _cleaned.Pitch versions will be overwritten.
 
 This directory currently contains two files:
-1.  A script to create .Pitch files based on .wav files and corresponding .TextGrid files (adapted from Simon Wehrle, https://osf.io/5e7fd/overview)
-2A. A Python script to clean up the .Pitch files (I run it in Visual Studio Code). 
-2B. An executable (.exe) version of the Python script, that can be run more easily if you're unfamiliar with Python.
-3.  A script to manual correct the cleaned .Pitch files (adpated from Simon Wehrle, https://osf.io/5e7fd/overview)
+1. 1_[WigSpac_1]_CreatePitchFiles.praat: A Praat script to create .Pitch files based on .wav files and corresponding .TextGrid files (adapted from Simon Wehrle, https://osf.io/5e7fd/overview)
+2. 2_DeleteLowConfidenceCandidates.py: A Python script to clean up the .Pitch files (I run it in Visual Studio Code). 
+3. 2_DeleteLowConfidenceCandidates.exe: An executable (.exe) version of the Python script, that can be run more easily if you're unfamiliar with Python.
+4. 3_[WigSpac_1]_Mausmooth_ManualPitchCorrection.praat: A script to manually correct the cleaned .Pitch files (adpated from Simon Wehrle, https://osf.io/5e7fd/overview)
 
 I'm curious what people think about this tool so let me know if you have any questions or feedback.
 
