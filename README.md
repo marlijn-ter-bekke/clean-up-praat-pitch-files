@@ -4,8 +4,6 @@ I built a tool that allows you to automatically clean up .Pitch files created in
 1. Only select pitch candidates above a certain threshold (e.g., confidence values of 7 or higher). These are the pink dots in Praat.
 2. Only show pitch candidates above a certain threshold (e.g., confidence values of 5 or higher). This applies to all visible pitch candidates in Praat, not just the pink ones.
 
-When running the script, you will be asked to choose the folder that contains your .Pitch files, to select a selection threshold (see 1 above) and to select a visibility threshold (see 2 above). The script will then run through the .Pitch files in your folder and save the cleaned versions with the suffix _cleaned.Pitch. Currently, if you run the script twice (e.g., with different settings), the previous _cleaned.Pitch versions will be overwritten.
-
 This is an example of an original .Pitch object.
 
 <img src="original_pitch.png" alt="Screenshot of original pitch track in Praat" width=750/> 
@@ -13,6 +11,8 @@ This is an example of an original .Pitch object.
 This is an example of a cleaned .Pitch object, showing pitch candidates of 6 and higher and selecting candidates of 7 and higher. 
 
 <img src="cleaned_pitch.png" alt="Screenshot of cleaned pitch track in Praat" width=750/>
+
+When running the script, you will be asked to choose the folder that contains your .Pitch files, to select a selection threshold (see 1 above) and to select a visibility threshold (see 2 above). The script will then run through the .Pitch files in your folder and save the cleaned versions with the suffix _cleaned.Pitch. Currently, if you run the script twice (e.g., with different settings), the previous _cleaned.Pitch versions will be overwritten.
 
 This directory currently contains the following files:
 1. 1_[WigSpac_1]_CreatePitchFiles.praat: A Praat script to create .Pitch files based on .wav files and corresponding .TextGrid files (adapted from Simon Wehrle, https://osf.io/5e7fd/overview)
