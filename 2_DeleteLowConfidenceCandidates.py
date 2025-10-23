@@ -110,10 +110,10 @@ for i in range(len(pitch_files)):
 
     # If a line begins with strength, we check whether the strength value is below 0.75
     # If it is, we want to set strength to 0, as well as the corresponding frequency (on the line above)
-    for index, line in lines:
+    for index, line in enumerate(lines):
         if line.startswith('                strength'):
             strength_value = float(line.split()[2]) # The third element is the strength value
-            strength_index = lines.index(line)  # Always set strength_index here
+            strength_index = index  # Always set strength_index here
             
             if strength_value < confidence_threshold_value:
                 
