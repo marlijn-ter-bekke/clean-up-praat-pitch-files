@@ -8,11 +8,11 @@ When running the script, you will be asked to choose the folder that contains yo
 
 This is an example of an original .Pitch object.
 
-<img src="original_pitch.png" alt="Screenshot of original pitch track in Praat" width=600/> 
+<img src="original_pitch.png" alt="Screenshot of original pitch track in Praat" width=750/> 
 
 This is an example of a cleaned .Pitch object, showing pitch candidates of 6 and higher and selecting candidates of 7 and higher. 
 
-<img src="cleaned_pitch.png" alt="Screenshot of cleaned pitch track in Praat" width=600/>
+<img src="cleaned_pitch.png" alt="Screenshot of cleaned pitch track in Praat" width=750/>
 
 This directory currently contains the following files:
 1. 1_[WigSpac_1]_CreatePitchFiles.praat: A Praat script to create .Pitch files based on .wav files and corresponding .TextGrid files (adapted from Simon Wehrle, https://osf.io/5e7fd/overview)
