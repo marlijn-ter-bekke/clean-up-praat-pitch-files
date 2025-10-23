@@ -1,4 +1,4 @@
-# clean-up-praat-pitch-files
+# Clean up Praat .Pitch files
 
 I built a tool that allows you to automatically clean up .Pitch files created in Praat. Specifically, it allows you to do two things:
 1. Only select pitch candidates above a certain threshold (e.g., confidence values of 7 or higher). These are the pink dots in Praat.
