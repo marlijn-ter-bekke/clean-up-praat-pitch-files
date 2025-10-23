@@ -7,9 +7,11 @@ I built a tool that allows you to automatically clean up .Pitch files created in
 When running the script, you will be asked to choose the folder that contains your .Pitch files, to select a selection threshold (see 1 above) and to select a visibility threshold (see 2 above). The script will then run through the .Pitch files in your folder and save the cleaned versions with the suffix _cleaned.Pitch. Currently, if you run the script twice (e.g., with different settings), the previous _cleaned.Pitch versions will be overwritten.
 
 This is an example of an original .Pitch object.
+
 <img src="original_pitch.png" alt="Screenshot of original pitch track in Praat" width=600/> 
 
 This is an example of a cleaned .Pitch object, showing pitch candidates of 6 and higher and selecting candidates of 7 and higher. 
+
 <img src="cleaned_pitch.png" alt="Screenshot of cleaned pitch track in Praat" width=600/>
 
 This directory currently contains the following files:
